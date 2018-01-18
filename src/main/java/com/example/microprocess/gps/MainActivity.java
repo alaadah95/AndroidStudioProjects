@@ -44,7 +44,7 @@ textView.setText(""+intent.getExtras().get("Longitude"));
             };
             registerReceiver(broadcastReceiver,new IntentFilter("location_update"));
         }
-
+//
     }
 
     @Override
